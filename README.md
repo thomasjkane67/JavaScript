@@ -1,7 +1,7 @@
 ## JavaScript
 
 -Data types
-- [Variables (1:45)](https://www.youtube.com/watch?v=_y9oxzTGERs&t=105s)
+- [Variables \(1:45\)](https://www.youtube.com/watch?v=_y9oxzTGERs&t=105s)
 - Strings (4:11)](https://www.youtube.com/watch?v=_y9oxzTGERs&t=251s)
 - Numbers (11:37)](https://www.youtube.com/watch?v=_y9oxzTGERs&t=697s)
 - Booleans (16:41)](https://www.youtube.com/watch?v=_y9oxzTGERs&t=1001s)
