@@ -81,3 +81,16 @@ console.log(Object.keys(object1)); // only print the keys
 console.log(Object.values(object1)); // only print the values
 console.log(oject1.hasOwnPropperty('firstName')); // will return true
 console.log(oject1.hasOwnPropperty('firstName2')); // will return false
+
+let number1 = 5 % 2; // (moduless) 5 div by 2 gives the remander 1
+let number2 = 5 + 4 - 4 * 2 /4 // standard math
+
+
+console.log(`$(number1) $(number2)`)
+
+// relational operator
+console.log(number1 <= number2) // return true or false
+// double vs triple operator
+console.log(number1 !== number2)
+// == or != checks value
+// === or !== checks value and data type
