@@ -63,7 +63,7 @@ array1.forEach((element) => {
 // Objects with key value pairs
 let object1 = {
 	fistName: 'Dylan',
-	lastName: 'Israel'
+	lastName: 'Israel',
 	address: {
 		city: 'Austin',
 		state: 'Texas'
