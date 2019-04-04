@@ -64,11 +64,11 @@ array1.forEach((element) => {
 let object1 = {
 	fistName: 'Dylan',
 	lastName: 'Israel'
-	address; {
+	address: {
 		city: 'Austin',
-		state; 'Texas'
+		state: 'Texas'
 	},
-	age; 30,
+	age: 30,
 	cats: ['Milo', 'Tito', 'Achilies']
 };
 
