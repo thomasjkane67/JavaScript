@@ -86,11 +86,34 @@ let number1 = 5 % 2; // (moduless) 5 div by 2 gives the remander 1
 let number2 = 5 + 4 - 4 * 2 /4 // standard math
 
 
-console.log(`$(number1) $(number2)`)
+console.log(`$(number1) $(number2)`);
 
 // relational operator
-console.log(number1 <= number2) // return true or false
+console.log(number1 <= number2); // return true or false
 // double vs triple operator
-console.log(number1 !== number2)
+console.log(number1 !== number2);
 // == or != checks value
 // === or !== checks value and data type
+
+// increments and decrements
+// % modulus
+// / divide
+// * multiply
+number4 = 1;
+number4++; // add one after the line of code
+number4--; // subreact one
+number4 += 5; // same as number5 = number4 + 5
+number4 *= 5; // multiply by 5
+++number4; // happens within the line of code
+
+
+// if then else
+let test = 5;
+
+if (test === 5){
+	console.log('It is True');
+} else if ( false ) {
+	console.log('It is False')
+} else {
+	console.log('Everything passed')
+}
