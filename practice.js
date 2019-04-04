@@ -74,13 +74,13 @@ let object1 = {
 
 object1.age = 31; // Reset the target age
 
-console.log(oject1);
+console.log(object1);
 console.log(object1.lastName);
-console.log(opject1.address.city);
+console.log(object1.address.city);
 console.log(Object.keys(object1)); // only print the keys
 console.log(Object.values(object1)); // only print the values
-console.log(oject1.hasOwnPropperty('firstName')); // will return true
-console.log(oject1.hasOwnPropperty('firstName2')); // will return false
+console.log(object1.hasOwnPropperty('firstName')); // will return true
+console.log(object1.hasOwnPropperty('firstName2')); // will return false
 
 let number1 = 5 % 2; // (moduless) 5 div by 2 gives the remander 1
 let number2 = 5 + 4 - 4 * 2 /4 // standard math
@@ -115,5 +115,16 @@ if (test === 5){
 } else if ( false ) {
 	console.log('It is False')
 } else {
-	console.log('Everything passed')
+	console.log('Everything else failed')
+}
+
+// && and || or
+let test2 = 6;
+
+if (test === 5 && true === true){
+	console.log('It is True');
+} else if ( false ) {
+	console.log('It is False')
+} else {
+	console.log('Everything else failed')
 }
