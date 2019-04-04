@@ -45,7 +45,7 @@ console.log(Boolean(example2)); // will print true
 // strings are false but a space is true
 // number values are true, except 0 which is false
 
-# array
+// array
 let array1 = [5, 5, 6];
 console.log(array1.lenght);
 console.log(array1[0]);
