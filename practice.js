@@ -25,9 +25,9 @@ let example = 7;
 
 console.log(example);
 
-console.log(parseInt(example); // Parses to only the integer
+console.log(parseInt(example)); // Parses to only the integer
 
-console.log(parseFloat(example); // Parses to only the floating point number
+console.log(parseFloat(example)); // Parses to only the floating point number
 
 console.log(example.toFixed(2)); // add/set decimal places
 
