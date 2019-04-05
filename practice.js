@@ -130,7 +130,7 @@ if (test === 5 && true === true){
 }
 
 // BREAk and PROMPT and SWITCH
-let letter = prompt("Enter a letter: ")
+let letter = prompt("Enter a letter: ");
 	switch(letter.toUpperCase()) {
 		case 'A':
 			console.log('You entered A');
@@ -142,7 +142,7 @@ let letter = prompt("Enter a letter: ")
 			console.log('You entered C');
 			break;
 		default:
-			console.log('Not checking all letters')
+			console.log('Not checking all letters');
 	}
 
 
@@ -162,4 +162,17 @@ for (let i = 0; i < numberArray.lenght; i++) {
 	console.log(numberArray[i]);
 	count += numberArray[i];
 }
-console.log(count);
+console.log('Count is ' $(count));
+
+// Wile loop exits on False
+let wloop = 0;
+
+while (true) {
+	wloop++;
+
+	if(wloop >= 20) {
+		break;
+	}
+}
+
+console.log(wloop);
