@@ -217,9 +217,9 @@ function add3(mynum) {
 	return mynum;
 }
 
-console.log(add3(10)); // send 10 to mynum via the function
-console.log(add3(15)); // send 10 to mynum via the function
-console.log(add3(20)); // send 10 to mynum via the function
+console.log(add3(10+0)); // send 10 to mynum via the function
+console.log(add3(15+0)); // send 15 to mynum via the function
+console.log(add3(20+0)); // send 20 to mynum via the function
 
 // send multiple things to the function
 function add3(mynum1, mynum2) {
