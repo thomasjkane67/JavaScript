@@ -162,7 +162,7 @@ for (let i = 0; i < numberArray.lenght; i++) {
 	console.log(numberArray[i]);
 	count += numberArray[i];
 }
-console.log('Count is ' $(count));
+console.log('Count is ');
 
 // Wile loop exits on False
 let wloop = 0;
