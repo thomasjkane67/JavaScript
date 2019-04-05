@@ -200,7 +200,23 @@ function add() {
 	console.log('test')
 }
 
+add(); // call to the function
 add();
 add();
 add();
-add();
+
+// return something with a call to the function
+function add2() {
+	return 5;
+}
+
+console.log(add2());
+
+// return what is sent to the function
+function add3(mynum) {
+	return mynum;
+}
+
+console.log(add3(10)); // send 10 to mynum via the function
+console.log(add3(15)); // send 10 to mynum via the function
+console.log(add3(20)); // send 10 to mynum via the function
