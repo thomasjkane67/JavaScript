@@ -220,3 +220,10 @@ function add3(mynum) {
 console.log(add3(10)); // send 10 to mynum via the function
 console.log(add3(15)); // send 10 to mynum via the function
 console.log(add3(20)); // send 10 to mynum via the function
+
+// send multiple things to the function
+function add3(mynum1, mynum2) {
+	return mynum1 + mynum2;
+}
+
+console.log(add3(10, 15)); // send 10 to mynum via the function
