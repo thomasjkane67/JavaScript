@@ -176,3 +176,19 @@ while (true) {
 }
 
 console.log(wloop);
+
+
+// do loop (usually used with exoected string,
+// can cause infinite loops)
+let dloop = 0;
+
+do {
+	dloop++;
+
+	if(dloop >= 20) {
+		break;
+	}
+}
+while (false)
+
+console.log(dloop);
