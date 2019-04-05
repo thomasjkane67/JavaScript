@@ -140,5 +140,26 @@ let letter = prompt("Enter a letter: ")
 			break;
 		case 'C':
 			console.log('You entered C');
-			break;		
+			break;
+		default:
+			console.log('Not checking all letters')
 	}
+
+
+// for loop addition to 5
+let numberloop = 0;
+
+for (let i = 0; i < 5; i++) {
+	numberloop += i;
+}
+console.log(numberloop);
+
+// for loop an arry
+let count = 0;
+let numberArray = [10, 20, 30, 40, 50, 60, 70, 80];
+
+for (let i = 0; i < numberArray.lenght; i++) {
+	console.log(numberArray[i]);
+	count += numberArray[i];
+}
+console.log(count);
