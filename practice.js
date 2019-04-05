@@ -192,3 +192,15 @@ do {
 while (false)
 
 console.log(dloop);
+
+
+
+// function stores code to be reused
+function add() {
+	console.log('test')
+}
+
+add();
+add();
+add();
+add();
