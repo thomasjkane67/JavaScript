@@ -79,8 +79,8 @@ console.log(object1.lastName);
 console.log(object1.address.city);
 console.log(Object.keys(object1)); // only print the keys
 console.log(Object.values(object1)); // only print the values
-console.log(object1.hasOwnPropperty('firstName')); // will return true
-console.log(object1.hasOwnPropperty('firstName2')); // will return false
+console.log(object1.hasOwnProperty('firstName')); // will return true
+console.log(object1.hasOwnProperty('firstName2')); // will return false
 
 let number1 = 5 % 2; // (moduless) 5 div by 2 gives the remander 1
 let number2 = 5 + 4 - 4 * 2 /4 // standard math
@@ -128,3 +128,17 @@ if (test === 5 && true === true){
 } else {
 	console.log('Everything else failed')
 }
+
+// BREAk and PROMPT and SWITCH
+let letter = prompt("Enter a letter: ")
+	switch(letter.toUpperCase()) {
+		case 'A':
+			console.log('You entered A');
+			break;
+		case 'B':
+			console.log('You entered B');
+			break;
+		case 'C':
+			console.log('You entered C');
+			break;		
+	}
