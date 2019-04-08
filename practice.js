@@ -196,12 +196,11 @@ console.log(dloop);
 
 
 // function stores code to be reused
-function add() {
-	console.log('test')
+function add(myname) {
+	console.log(myname)
 }
 
-add(); // call to the function
-add();
+console.log(add('tom'));
 add();
 add();
 
